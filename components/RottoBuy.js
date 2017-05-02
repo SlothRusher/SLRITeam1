@@ -26,7 +26,7 @@ export default class SLRITeam1 extends Component {
             <Col>
               <Form>
                 <Item stackedLabel>
-                  <Label>Last Three Numbers</Label>
+                  <Label>เลขท้าย 2 ตัว</Label>
                   <Input/>
                 </Item>
               </Form>
@@ -34,13 +34,13 @@ export default class SLRITeam1 extends Component {
             <Col>
               <Form>
                 <Item stackedLabel>
-                  <Label>Upper (Baht)</Label>
+                  <Label>บน (บาท)</Label>
                   <Input/>
                 </Item>
               </Form>
               <Form>
                 <Item stackedLabel>
-                  <Label>Lower (Baht)</Label>
+                  <Label>ล่าง (บาท)</Label>
                   <Input/>
                 </Item>
               </Form>
@@ -50,7 +50,7 @@ export default class SLRITeam1 extends Component {
             <Col>
               <Form>
                 <Item stackedLabel>
-                  <Label>Last Two Numbers</Label>
+                  <Label>เลขท้าย 3 ตัว</Label>
                   <Input/>
                 </Item>
               </Form>
@@ -58,13 +58,13 @@ export default class SLRITeam1 extends Component {
             <Col>
               <Form>
                 <Item stackedLabel>
-                  <Label>Shuffer (Baht)</Label>
+                  <Label>โต๊ด (บาท)</Label>
                   <Input/>
                 </Item>
               </Form>
               <Form>
                 <Item stackedLabel>
-                  <Label>Direct (Baht)</Label>
+                  <Label>เต็ง (บาท)</Label>
                   <Input/>
                 </Item>
               </Form>
@@ -72,7 +72,7 @@ export default class SLRITeam1 extends Component {
           </Grid>
           <Form>
             <Item stackedLabel>
-              <Label>Total Price (Baht)</Label>
+              <Label>จำนวนเงิน (บาท)</Label>
               <Input/>
             </Item>
           </Form>
@@ -81,7 +81,7 @@ export default class SLRITeam1 extends Component {
           <FooterTab>
             <Button full iconLeft success>
               <Icon name='cart'/>
-              <Text>Buy Now!</Text>
+              <Text>ซื้อหวย!</Text>
             </Button>
           </FooterTab>
         </Footer>
